@@ -1,4 +1,4 @@
-from turtle import *
+from turtle import * 
 speed(0)
 def smth(size, levels, angle):
     if levels == 0:
