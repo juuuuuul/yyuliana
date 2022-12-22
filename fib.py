@@ -9,9 +9,7 @@ class leonardo:
  
         def __next__(self): 
             self.tree += 1 
-            if self.tree == 1:
-                return 1
-            if self.tree == 0:
+            if self.tree == 1 or if self.tree == 0:
                 return 1
             else:
                 self.cake = self.candy + self.newyear 
